@@ -17,9 +17,9 @@ jobs:
       run: |
         npm install
         npm run-script build
-    - name: Deploy
-      uses: chyz/github-pages-deploy-action@releases/v3
-      with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build
+    # - name: Deploy
+    #   uses: chyz/github-pages-deploy-action@releases/v3
+    #   with:
+    #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    #     BRANCH: gh-pages
+    #     FOLDER: build
